@@ -20,6 +20,6 @@ for iter = 1:num_iters
   % Save the cost J in every iteration
   J_history(iter) = computeCost(X, y, theta);
   
- endfor
+ end
   
  end 
